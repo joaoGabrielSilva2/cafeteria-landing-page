@@ -1,0 +1,90 @@
+/* Configurações gerais para o documento */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Arial', sans-serif; /* Tipo de fonte padrão para o documento */
+    margin-bottom: 15; 
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+/* Estilos para o cabeçalho */
+
+header {
+    background-color: #000000;
+    color: #ffffff; 
+    padding: 25px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+
+/* Estilos para o menu da cafeteria */
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #ffffff;
+    text-align: center; 
+}
+
+
+
+#menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none; 
+    padding: 0; 
+}
+
+#menu li {
+    padding: 10px; 
+    font-weight: bold; 
+}
+
+/* Estilos para a seção do espaço da cafeteria */
+
+#ambiance {
+    padding: 20px;
+    background-color: #838383;
+    text-align: center; 
+    border: none;
+    border-radius: 20px;
+}
+
+#ambiance img {
+    max-width: 45%; 
+    margin: 20px 0; 
+    border: none;
+    border-radius: 20px;
+}
+
+/* Estilos para a seção de localização */
+
+#location {
+    padding: 40px;
+    background-color: #ffffff;
+    text-align: center; 
+}
+
+/* Estilos para a seção de contato */
+
+#contact {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center; 
+    border: none;
+    border-radius: 20px;
+}
+
